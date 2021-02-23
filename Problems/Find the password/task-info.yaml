@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from lxml import etree
+
+    def find_password(xml_string):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9491#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 22 Feb 2021 09:11:01 UTC
+record: -1

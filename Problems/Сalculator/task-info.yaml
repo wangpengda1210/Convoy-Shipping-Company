@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # please, don't modify this variable
+    calculations = input().split()
+
+    # complete the code
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12368#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 22 Feb 2021 06:03:50 UTC
+record: -1

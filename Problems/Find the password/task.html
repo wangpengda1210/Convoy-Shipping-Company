@@ -1,0 +1,19 @@
+<h2>Find the password</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Imagine you are a hacker. You've got a file containing information about a user of Hyperskill. It is an XML document that contains their personal information as well as their email and password. But the document is very large and you can't find the password in it manually. You see that all information about the user is stored in attributes, and you are sure that the password is being stored in the <code class="java">password</code> attribute. So you decided to use Python to find the password.</p> 
+  <p>You should implement a function <code class="java">find_password(xml_string)</code>. The content of the XML document will be passed to this function as a string. Your code shouldn't read anything from input. Traverse the XML document using the <code class="java">lxml</code> library and find the password and return it.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-853').style.display='inline'"> Hint </button> </p>
+  <div id="hint-853" style="display:none;">
+   If the initial problem seems too difficult for you, you can solve an easier version of it. Try to find the password among the attributes of one of the root's children (like in the first sample). If the password can not be found there, you can return 
+   <code class="java">None</code>. So, in the second sample, 
+   <code class="java">None</code> is also a valid answer.
+  </div>
+  <p></p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight"><profile><account login="login" password="secret"/></profile></code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">secret</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight"><result><br>  <webpage link="hyperskill.com"></webpage><br>  <users><br>    <!-- Random comment --><br>    <user id="239" password="qwerty"><info email="a@a.a"/></user><br>  </users><br></result></code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">qwerty</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/9481">Show topic summary</a>

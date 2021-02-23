@@ -1,0 +1,13 @@
+type: code
+custom_name: How much information?
+files:
+- name: main.py
+  visible: true
+  text: from lxml import etree
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9490#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 22 Feb 2021 09:15:17 UTC
+record: -1
